@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE arboles>
+<arboles>
+    <Acermonspessulanum>
+        <nombre>Arce de Montpellier, Arce menor</nombre>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>De 6 a 10 metros</altura>
+        <formayestructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</formayestructura>
+        <colorenprimavera>Haz verde brillante, envés verde blanquecino</colorenprimavera>
+        <colorenotono></colorenotono>
+        <resistenciaheladas>Heladas fuertes (hasta -15ºC)s</resistenciaheladas>
+    </Acermonspessulanum>
+    <Oleaeuropea>
+        <nombre>Olivo</nombre>
+        <vegetacion>Perenne</vegetacion>
+        <altura>De 8 a 15 metros</altura>
+        <formayestructura>Copa irregular. Tronco principal irregular con bifurcaciones.</formayestructura>
+        <colorenprimavera></colorenprimavera>
+        <colorenotono></colorenotono>
+        <resistenciaheladas></resistenciaheladas>
+    </Oleaeuropea>
+    <Ramajetortuoso>
+        <nombre></nombre>
+        <vegetacion></vegetacion>
+        <altura></altura>
+        <formayestructura></formayestructura>
+        <colorenprimavera>Haz verde oscuro, envés verde plateado</colorenprimavera>
+        <colorenotono></colorenotono>
+        <resistenciaheladas>Heladas medias (hasta -10ºC)</resistenciaheladas>
+    </Ramajetortuoso>
+    <Platanusorientalis>
+        <nombre>Platano</nombre>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>De 20 a 25 metros</altura>
+        <formayestructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</formayestructura>
+        <colorenprimavera>Haz verde medio, enves verde claro</colorenprimavera>
+        <colorenotono>Ocre</colorenotono>
+        <resistenciaheladas>Heladas fuertes (hasta -20ºC)</resistenciaheladas>
+    </Platanusorientalis>
+    <Quercusilex>
+        <nombre>Encina</nombre>
+        <vegetacion>Perenne</vegetacion>
+        <altura>En torno a 25 metros</altura>
+        <formayestructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</formayestructura>
+        <colorenprimavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</colorenprimavera>
+        <colorenotono></colorenotono>
+        <resistenciaheladas>Heladas fuertes (hasta -15ºC)</resistenciaheladas>
+    </Quercusilex>
+</arboles>
