@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Clusters>
+<cluster>
+    <nodo nombre="Maquinas" ip="192.168.1.1">
+        <maquinavirtual nombre="VM1">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual nombre="VM2">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual nombre="VM3">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+    </nodo>
+    <nodo nombre="Maquinas" ip="192.168.1.1">
+        <maquinavirtual nombre="VM4">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual nombre="VM5">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual nombre="VM6">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+    </nodo>
+    <nodo nombre="Maquinas" ip="192.168.1.1">
+        <maquinavirtual nombre="VM7">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual nombre="VM8">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual nombre="VM9">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+    </nodo>
+    <nodo nombre="Maquinas" ip="192.168.1.1">
+        <maquinavirtual nombre="VM10">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual nombre="VM11">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual nombre="VM12">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+    </nodo>
+    <nodo nombre="Maquinas" ip="192.168.1.1">
+        <maquinavirtual nombre="VM13">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual nombre="VM14">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual nombre="VM15">
+            <sistemaoperativo>Windows Server 2012</sistemaoperativo>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+            <interfazred>
+                <ip>192.168.10.1</ip>
+                <mac>2A:5C:F7:8D</mac>
+            </interfazred>
+        </maquinavirtual>
+    </nodo>
+</cluster>
