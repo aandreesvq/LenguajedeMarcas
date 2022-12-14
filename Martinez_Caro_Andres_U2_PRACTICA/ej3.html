@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <style>
+        table,
+        th,
+        td{
+            border: 2px dashed darkred;
+        }
+        thead,
+        tfoot{
+            background-color: rgb(250, 250, 139);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Número del catálogo</th>
+                <th>Nombre</th>
+                <th>Imagen</th>
+                <th>Web donde lo encontramos</th>
+                <th>Tienda</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>7821562</th>
+                <th>Atari Mini</th>
+                <th>
+                    <img src="img/monitor.png" alt="monitor">
+                </th>
+                <th>
+                    <a target="_blank" href="https://www.ebay.es/">https://www.ebay.es/</a></th>
+                <th>E-bay</th>
+                <th>100€</th>
+            </tr>
+            <tr>
+                <th>243243</th>
+                <th>Super Nintendo Mini</th>
+                <th>
+                    <img src="img/nintendo.png" alt="nintendo">
+                </th>
+                <th colspan="2" rowspan="3">
+                    <a target="_blank" href="https://www.amazon.es/">https://www.amazon.es/</a>
+                </th>
+                <th>100€</th>
+            </tr>
+            <tr>
+                <th>593922</th>
+                <th>Mega Drive Mini</th>
+                <th>
+                    <img src="img/sega.png" alt="sega">
+                </th>
+                <th>200€</th>
+            </tr>
+            <tr>
+                <th>293944</th>
+                <th>Playstation Mini</th>
+                <th>
+                    <img src="img/play.png" alt="play">
+                </th>
+                <th>300€</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Número del catálogo</th>
+                <th>Nombre</th>
+                <th>Imagen</th>
+                <th>Web donde lo encontramos</th>
+                <th>Tienda</th>
+                <th>Precio</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

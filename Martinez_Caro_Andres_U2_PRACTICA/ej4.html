@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <style>
+        legend{
+            color: rgb(0, 0, 190);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Reservation Request</h1>
+        <fieldset>
+            <legend>General Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="id_arrival">Arrival Date:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="arrival" id="id_arrival">
+                    </td>
+                    <td>
+                        Arrival date is invalid
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id_nights">Nights:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="Nights" id="id_nights" >
+                    </td>
+                    <td>
+                        Nights must be a number
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id_adults">Adults:</label>
+                        <select name="adults" id="id_adults">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id_children">Children:</label>
+                        <select name="Children" id="id_children">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+                    <label for="id_Room">Room Type:</label>
+                        <input type="radio" name="" id="id_Room" checked> standard 
+                        <input type="radio" name="" id="id_Room">Business
+                        <input type="radio" name="" id="id_Room">Suite
+                        <br>
+                    <label for="id_Bed">Bed Type:</label>
+                        <input type="radio" name="" id="id_Bed" checked> King 
+                        <input type="radio" name="" id="id_Bed">Double Double
+                    <br>
+                    <label for="id_smoking"></label>
+                    <input type="checkbox" name="smoke" id="id_smoke">Smoking
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+        </fieldset>
+    </form>
+</body>
+</html>
