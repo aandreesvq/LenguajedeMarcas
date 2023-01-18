@@ -1,0 +1,34 @@
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+thead td:first-letter{
+    font-size: 30px;
+}
+th{
+    background-color: green;
+}
+tr:nth-child(5) td{
+    text-align: center;
+    background-color: yellow;
+}
+td:last-child:hover{
+    font-size: 30px;
+    transition: 1s;
+}
+a:link{
+    color: green;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+    text-decoration: none;
+}
+label::after{
+    content: "*";
+    color: red;
+}
+input{
+    border-color: red;
+    width: 13%;
+}
