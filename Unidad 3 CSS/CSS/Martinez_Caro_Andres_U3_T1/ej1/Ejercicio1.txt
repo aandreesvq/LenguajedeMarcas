@@ -1,0 +1,10 @@
+body {background-color: tan}: le pone al fondo del body el color elejido.
+h1 {color:maroon; font-size:20pt}: le pone un color a la fuente y el tamaño elejido a la fuente.
+hr {color:navy}: le pone color a la barrita creada con los hr.
+p {font-size:12pt; margin-left: 15px}: le pone al parrafo un tamaño de fuente y un margen a su izquierda.
+p.verse {color:maroon; margin-left: 60px}: le pone a los parrafos con la clase verse un color de fuente y un margen a la izquierda.
+a:link     {color:green}: Le pone al link un color verde cuando no se interactua con el.
+a:visited  {color:yellow}: Le pone un color amarillo al link cuando se ha usado el link.
+a:hover    {color:black}: Le da un color negro cuando ponemos el raton encima del link.
+a:active   {color:blue}: Le pone un color azul cuando estamos clicando el link.
+ 

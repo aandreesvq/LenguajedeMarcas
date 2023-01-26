@@ -1,0 +1,1 @@
+Porque los dos primeros tienen la clase verse a la cual en el css le dan a los parrafos con esa clase un color de letra maroon y un margen a su izquierda de 60 pixeles.
