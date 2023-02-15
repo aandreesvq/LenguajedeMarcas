@@ -1,0 +1,140 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .container {
+      width: 100%;
+      position: relative;
+  }
+
+.caja1 {
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+.caja1 div:first-child {
+    overflow-y: auto;
+    float: left;
+}
+
+.caja1 div:nth-child(2) {
+    position: absolute;
+    display: inline-block;
+    left: 1050px;
+    top: 35px;
+    font-size: 1em;
+}
+
+.caja2 {
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgb(84, 116, 77);
+    height: 40px;
+}
+.caja2 div {
+    float: left;
+    color: white;
+    padding: 10px;
+}
+
+img {
+    width: 15%;
+}
+.caja3 {
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 20px;
+    height: 430px;
+}
+.hija1_menu {
+    position: absolute;
+    width: 15%;
+    height: 233px;
+    background-color: rgb(190, 187, 187);
+    text-align: center;
+    border-radius: 4px;
+}
+.hija1_menu img {
+    position: relative;
+    bottom: 20px;
+    width: 90%;
+}
+
+.hija2_img {
+    width: 70%;
+    margin: 0px auto;
+}
+.parque {
+    width: 95%;
+    margin: 0px auto;
+    text-align: center;
+}
+.parque img {
+    width: 70%;
+}
+.hija3_categorias  {
+    position: relative;
+    width: 85%;
+    margin: 0px auto;
+    background-color: rgb(190, 187, 187);
+    margin-top: 30px;
+}
+
+.hija4_cursos {
+    position: relative;
+    width: 85%;
+    margin: 8px auto;
+    background-color: rgb(190, 187, 187);
+    height: 160px;
+    padding: 5px;
+    color: rgb(84, 128, 40);
+    font-weight: bold;
+}
+
+.hija4_cursos ul {
+    list-style-type: none;
+}
+
+
+.hija4_cursos img {
+    position: absolute;
+    width: 10%;
+    left: 705px;
+    top: 75px;
+}
+
+.hija5 {
+    position: absolute;
+    width: 15%;
+    height: 230px;
+    background-color: rgb(190, 187, 187);
+    border-radius: 4px;
+    left: 1090px;
+    top: 0px;
+    padding-left: 10px;
+}
+.hija5 img {
+    width: 150px;
+    height: 100px;
+}
+
+.ult_caja {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+}
+.ult_caja img {
+    width: 5%;
+}
+.ult_caja p {
+    margin-bottom: 0px;
+}
